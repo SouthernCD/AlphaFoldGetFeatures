@@ -24,5 +24,5 @@ python /lustre/home/xuyuxing/python_project/AlphaFoldGetFeatures/run_alphafold.p
     --uniref30_database_path=$uniref30_database_path \
     --bfd_database_path=$bfd_database_path \
     --use_gpu_relax=True \
-    --model_preset=monomer $*
+    --model_preset=multimer $*
 conda deactivate
